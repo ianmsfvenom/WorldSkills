@@ -1,0 +1,67 @@
+.header {
+    width: 100vw;
+    height: 75px;
+    background-color: #ecb049;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+}
+
+#menuDrop {
+    margin-left: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.searchProduct {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.searchProduct label {
+    display: inline-block;
+    white-space: nowrap;
+    margin-right: 5px;
+}
+
+.managementButton {
+    margin-right: 5px;
+}
+
+.startSide {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.dropdown {
+    position: relative;
+    z-index: 2;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 2;
+}
+
+.dropdown-content p {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.dropdown-content a {
+    text-decoration: none;
+    color: black;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

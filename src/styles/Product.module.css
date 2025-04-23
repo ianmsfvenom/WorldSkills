@@ -1,0 +1,34 @@
+.product {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.productInfo { 
+    display: flex;
+    gap: 3px;
+    flex-direction: column;
+}
+
+.rating {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.sliderRating {
+    position: relative;
+}
+
+.dot {
+    position: absolute;
+    top: 8.3px;
+    width: 12px;
+    height: 12px;
+    background-color: black;
+    border-radius: 50%;
+}
